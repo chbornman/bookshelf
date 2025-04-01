@@ -1,18 +1,13 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "name": "Debug Bookshelf",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "${workspaceFolder}/bookshelf",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "lldb",
-            "preLaunchTask": "build"
-        }
-    ]
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/bornman/projects/bookshelf",
+      "program": "/Users/bornman/projects/bookshelf/build/Debug/outDebug"
+    }
+  ]
 }
