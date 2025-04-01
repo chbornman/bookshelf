@@ -1,0 +1,27 @@
+# Executables
+bookshelf
+*.exe
+*.out
+
+# Build output
+output/
+*.dSYM/
+
+# Debug files
+*.pdb
+*.su
+*.idb
+
+# Editor files
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*~
+*.bak
