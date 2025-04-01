@@ -1,12 +1,12 @@
-title,author,genre,cover_type,condition,word_count,year_published
-The Great Gatsby,F. Scott Fitzgerald,2,1,4,47094,1925
-To Kill a Mockingbird,Harper Lee,1,0,3,100388,1960
-1984,George Orwell,3,1,2,88942,1949
-Pride and Prejudice,Jane Austen,4,0,5,122880,1813
-The Hobbit,J.R.R. Tolkien,5,1,4,95356,1937
-Brave New World,Aldous Huxley,3,0,3,64531,1932
-Moby Dick,Herman Melville,6,1,2,206052,1851
-The Catcher in the Rye,J.D. Salinger,1,0,4,73404,1951
-The Lord of the Rings,J.R.R. Tolkien,5,1,5,481103,1954
-War and Peace,Leo Tolstoy,0,0,1,587000,1869
-Don Quixote,Miguel de Cervantes,0,0,2,378000,1605
+title,author,isbn,genre,cover_type,condition,word_count,year_published,metadata_retrieved
+The Great Gatsby,F. Scott Fitzgerald,9780743273565,Modern fiction,0,0,52000,2021,1
+To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,0,0,80750,2006,1
+Nineteen Eighty-Four,George Orwell,9780451524935,Futurology,0,0,82000,1993,1
+Pride and Prejudice,Jane Austen,9780141439518,"Fiction, Romance, Historical, Regency",0,0,108750,2003,1
+The Hobbit,J.R.R. Tolkien,9780618260300,Arkenstone,0,0,80000,2002,1
+Brave New World,Aldous Huxley,9780060850524,Utopias,0,0,70250,1932,1
+"Moby-Dick, or, The whale",Herman Melville,9780142437247,American Sea stories,0,0,163500,2003,1
+The Catcher in the Rye,J. D. Salinger,9780316769488,Fictional works,0,0,53500,1991,1
+The Lord of the Rings,J.R.R. Tolkien,9780618640157,The Lord of the Rings,0,0,294500,2005,1
+War and Peace,Лев Толстой,9781400079988,Classic,0,0,318250,2011,1
+Don Quixote,Miguel de Cervantes Saavedra,9780060934347,"Don Quixote (Cervantes Saavedra, Miguel de)",0,0,235000,2005,1

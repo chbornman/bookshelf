@@ -30,6 +30,10 @@ int resize_library(Library* library, int new_capacity);
 int save_library_to_csv(const Library* library, const char* filename);
 int load_library_from_csv(Library* library, const char* filename);
 
+// API functions
+int fetch_book_info_by_isbn(const char* isbn, Book* book);
+int update_library_with_api_data(Library* library);
+
 // Interactive CLI functions
 void interactive_add_book(Library* library);
 void interactive_lookup_book(Library* library);

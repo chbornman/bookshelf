@@ -29,16 +29,17 @@ typedef enum {
 typedef struct {
     char title[100];
     char author[100];
-    Genre genre;
+    char isbn[20];      // Standard ISBN is 13 digits, plus hyphens
+    char genre[50];     // Genre as a string instead of enum
     CoverType cover_type;
     Condition condition;
     int word_count;
     int year_published;
+    int metadata_retrieved;  // Boolean flag to track if metadata was already fetched
 } Book;
 
 // Function declarations
 void print_book(const Book* book);
-const char* get_genre_string(Genre genre);
 const char* get_cover_type_string(CoverType cover_type);
 const char* get_condition_string(Condition condition);
 
