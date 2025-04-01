@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "clang",
+            "args": [
+                "-g",
+                "-Wall",
+                "-Wextra",
+                "-std=c99",
+                "main.c",
+                "-o",
+                "bookshelf"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always"
+            },
+            "problemMatcher": "$gcc"
+        }
+    ]
+}
