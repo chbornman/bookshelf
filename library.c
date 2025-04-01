@@ -241,8 +241,8 @@ int load_library_from_csv(Library* library, const char* filename) {
     char line[1024];
     int line_num = 0;
     
-    // Initialize library - ensures books pointer is allocated
-    initialize_library(library);
+    // Note: We don't initialize library here anymore as it should be initialized before calling this function
+    // The library is already initialized in main()
     
     // Read and parse each line
     while (fgets(line, sizeof(line), file)) {

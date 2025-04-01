@@ -9,8 +9,8 @@
 
 // Include the implementation files directly instead of using headers
 // This effectively creates a unity build in a single file
-#include "book.c"
-#include "library.c"
+#include "book.h"
+#include "library.h"
 
 int main(int argc, char *argv[]) {
     printf("Bookshelf Management System\n\n");

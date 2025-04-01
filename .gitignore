@@ -5,6 +5,7 @@ bookshelf
 
 # Build output
 output/
+build/
 *.dSYM/
 
 # Debug files
@@ -13,10 +14,7 @@ output/
 *.idb
 
 # Editor files
-.vscode/*
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+.vscode/
 
 # OS specific files
 .DS_Store
